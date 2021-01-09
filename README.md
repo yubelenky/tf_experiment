@@ -11,7 +11,7 @@ At the moment of writing the CDK is still in the alpha state and a such could no
 ## Solution architecture
 The solution is a simple web server which returns static content and is hosted on EC2s from a Autoscaling Group. The content is served through an Application Load Balancer. The diagram below provides a high level view of the infrastructure to experiment with:
 
-![Sample architecture](https://github.com/yubelenky/tf_experiment/blob/main/SampleSolution.jpg?raw=true
+![Sample architecture](https://github.com/yubelenky/tf_experiment/blob/main/SampleSolution.jpg?raw=true)
 EC2 instance inside ASG has a web server installed (Httpd) with a static page in the root folder
 
 The following AWS components are being created:
