@@ -11,7 +11,7 @@
     "synth": "cdktf synth",
     "compile": "tsc --pretty",
     "watch": "tsc -w",
-    "test": "echo ok",
+    "test": "jest",
     "upgrade": "npm i cdktf@latest cdktf-cli@latest",
     "upgrade:next": "npm i cdktf@next cdktf-cli@next"
   },
@@ -21,7 +21,8 @@
   "dependencies": {
     "@cdktf/provider-aws": "^0.0.103",
     "cdktf": "^0.0.19",
-    "constructs": "^3.2.94"
+    "constructs": "^3.2.94",
+    "jest": "^26.6.3"
   },
   "devDependencies": {
     "@types/node": "^14.14.20",
