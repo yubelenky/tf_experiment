@@ -1,6 +1,6 @@
 import { Construct } from 'constructs';
 import { App, TerraformStack } from 'cdktf';
-import * as AwsTypes from "./.gen/providers/aws";
+import * as AwsTypes from "../.gen/providers/aws";
 
 class MyStack extends TerraformStack {
   constructor(scope: Construct, name: string) {
